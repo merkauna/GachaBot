@@ -1,0 +1,1 @@
+F:\PyCharmProjects\DiscBot\venv310\Scripts\python.exe F:\PyCharmProjects\DiscBot\bot.py

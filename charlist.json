@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Hunkie Dory",
+    "title": "The Threshold",
+    "img": "https://i.imgur.com/pJthMB0.png",
+    "desc": "An elderly man that sits atop his throne of choice: a rocking chair on his front porch. He has a hot wife and three hot daughters.^\"Don't touch my daughters.\"",
+    "rarity": "5",
+    "avail": "True"
+  },
+  {
+    "name": "Jade",
+    "title": "The Threshold",
+    "img": "https://i.imgur.com/PHObQwW.png",
+    "desc": "A Ghoran druid who will stop at nothing to hunt the woman who ate them alive.^\"Teeth on your bones, bugs under your skin, left all alone, and shivering within...\"",
+    "rarity": "4",
+    "avail": "True"
+  },
+  {
+    "name": "Varsival",
+    "title": "The Threshold",
+    "img": "https://i.imgur.com/CkxF0bh.png",
+    "desc": "An elderly Elven druid who lives alone in a wizard tower near the Misty Lake. He is a reclusive hermit, but is willing to help when someone reaches out.^\"Well, wasn't this one rather exhausting...\"",
+    "rarity": "3",
+    "avail": "True"
+  },
+  {
+    "name": "Twill",
+    "title": "The Threshold",
+    "img": "https://i.imgur.com/YMTN5rY.png",
+    "desc": "This chaotic goblin gremlin is a skilled trapper, perfectly complementing Breena's hunting skills. The two make a strong and strange couple.",
+    "rarity": "2",
+    "avail": "True"
+  },
+  {
+    "name": "Alsom",
+    "title": "The Threshold",
+    "img": "None",
+    "desc": "To Be Discovered...",
+    "rarity": "1",
+    "avail": "True"
+  },
+  {
+    "name": "Example 6-Star",
+    "title": "Campaign Title",
+    "img": "None",
+    "desc": "None",
+    "rarity": "6",
+    "avail": "False"
+  }
+]
