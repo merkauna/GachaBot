@@ -1,5 +1,5 @@
 # Work with Python 3.10-3.12
-# GACHA BOT VERSION: 1.1.2
+# GACHA BOT VERSION: 1.1.4
 import discord
 import time
 import json
@@ -21,8 +21,10 @@ global user_dict
 global user_times
 global rares
 global rates
+global gacha_lock
 user_times = {}
 rares = [[], [], [], [], [], []]
+gacha_lock = False
 # Chances of pulling: rates[0] should always be 100.
 # Each rate is then the difference between that rate and the next.
 # e.g. 1-star rates: 100-50 = 50%... 2-star rates: 50-25 = 25%...
@@ -120,8 +122,8 @@ async def print_rates(message):
         r[i] = (rates[i] - rates[i+1])
     r[len(rates)-1] = rates[len(rates)-1]
 
-    msg = "5:star: Rates: {:.2f}%,   4:star: Rates: {:.2f}%,   3:star: Rates: {:.2f}%,   2:star: Rates: {:.2f}%," \
-          "   1:star: Rates: {:.2f}%".format(r[4], r[3], r[2], r[1], r[0]+r[5])
+    msg = ":star::star::star::star::star: Rates: {:.2f}%\n:star::star::star::star: Rates: {:.2f}%\n:star::star::star:" \
+          " Rates: {:.2f}%\n:star::star: Rates: {:.2f}%\n:star: Rates: {:.2f}%".format(r[4], r[3], r[2], r[1], r[0]+r[5])
     await message.channel.send(msg)
 
 
@@ -148,19 +150,43 @@ def chunks(charlist, n):
 async def show_character_list(message):
     user_id = str(message.author.id)
     if user_id in user_dict:
-        sortedlist = sort_list_by_rarity(user_dict[user_id])
-        if len(sortedlist) > 50:
+        sortedlist = sort_list_by_rarity(squish_dupes((user_dict[user_id])))
+        if len(sortedlist) > 30:
             await message.channel.send("Character list too long, sending it to you in a DM!")
-            partitions = chunks(sortedlist, 50)
+            partitions = chunks(sortedlist, 30)
             await message.author.create_dm()
             for part in partitions:
-                await message.author.dm_channel.send(part)
+                embed = build_charlist_embed(message, part)
+                await message.author.dm_channel.send(embed=embed)
         else:
-            await message.channel.send(sortedlist)
-
+            embed = build_charlist_embed(message, sortedlist)
+            embed.set_author(name = message.author)
+            await message.channel.send(embed=embed)
     else:
         await message.channel.send("You have no characters yet!")
 
+
+def build_charlist_embed(message, sortedlist):
+    new_embed = discord.Embed(title="Character List")
+    new_embed.set_author(name = message.author)
+    new_list = ""
+    for char in sortedlist:
+        new_list = (new_list + char + "\n")
+    new_list = new_list[:-1]
+    new_embed.description = new_list
+    return new_embed
+
+def squish_dupes(charlist):
+    newlist = []
+    for char in charlist:
+        num_of_dupes = charlist.count(char)
+        if num_of_dupes > 1:
+            char = "**(" + str(num_of_dupes) + ")** " + char
+            newlist.append(char)
+        else:
+            newlist.append(char)
+    newlist = sort_list_by_rarity(list(set(newlist)))
+    return newlist
 
 def sort_list_by_rarity(charlist):
     # Sorts a list of characters names by rarity then alphabetical
@@ -285,11 +311,16 @@ def add_to_collection(message, char_to_add):
 async def gacha(message):
     # Check if the user can roll yet
     global user_times
+    global gacha_lock
     if not check_time(message):
         wait_time = (user_times[message.author.id] - time.time()) / 60
         await message.channel.send("Please wait {:3.1f} minutes.".format(wait_time))
         return
+    if gacha_lock == True:
+        await message.channel.send("Please wait, I'm really stressed right now :(")
+        return
 
+    gacha_lock = True
     global user_dict
     pulled_character = perform_roll()
 
@@ -303,6 +334,7 @@ async def gacha(message):
 
     # Give user a new wait timer
     user_times[message.author.id] = time.time() + 3600
+    gacha_lock = False
 
 
 def build_embed(character):
