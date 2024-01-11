@@ -1,1 +1,1 @@
-F:\PyCharmProjects\DiscBot\venv310\Scripts\python.exe F:\PyCharmProjects\DiscBot\bot.py
+C:\Users\raint\PycharmProjects\GachaBot\venv312\Scripts\python.exe C:\Users\raint\PycharmProjects\GachaBot\bot.py

@@ -3,8 +3,10 @@
 import discord
 import time
 import json
+import shutil
 from Character import Character
 from random import randint
+from os.path import exists
 
 TOKEN = ''
 
@@ -31,7 +33,7 @@ gacha_lock = False
 # 6-star rates are from rates[5] to 0.
 rates = [100, 55, 30, 15, 6, 2]
 
-signaller = "!"
+signaller = "R!"
 
 
 def build_char_list():
@@ -259,6 +261,9 @@ async def view_character(message):
         # Skip hidden 6+ star characters
         if char.rarity >= 5:
             if search_string == char_name and userid in user_dict and char.name in user_dict[userid]:
+                await message.channel.send(embed=build_embed(char))
+                return
+            elif search_string == char_name and int(userid) == adminID:
                 await message.channel.send(embed=build_embed(char))
                 return
             else:
@@ -523,5 +528,28 @@ async def on_message(message):
     if message.content.startswith(signaller + "shutdown") and message.author.id == adminID:
         await message.channel.send("Bot is shutting down.")
         await client.close()
+
+
+if exists("Configuration\\UserSettings.json"):
+    with open("Configuration\\UserSettings.json") as json_file:
+        user_set = json.load(json_file)
+        # Technically only checks for default values
+        # TODO: Check for invalid values as a whole
+        if user_set[0].get("adminID") == "Default" or user_set[0].get("Token") == "Default":
+            print("Error: Token or AdminID not set! Please place these values in "
+                  "Configuration\\UserSettings.json and run again.")
+            exit()
+        adminID = int(user_set[0].get("adminID"))
+        TOKEN = user_set[0].get("Token")
+else:
+    if exists("Configuration\\UserDefaults.json"):
+        shutil.copy("Configuration\\UserDefaults.json", "Configuration\\UserSettings.json")
+        print("Error: Token or AdminID not set! Please place these values in "
+              "Configuration\\UserSettings.json and run again.")
+    else:
+        print("Error: Configuration\\UserSettings and Configuration\\UserDefaults both missing. "
+              "Please contact support.")
+    exit()
+
 
 client.run(TOKEN)

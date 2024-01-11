@@ -1,50 +1,702 @@
 [
   {
-    "name": "Hunkie Dory",
-    "title": "The Threshold",
-    "img": "https://i.imgur.com/pJthMB0.png",
-    "desc": "An elderly man that sits atop his throne of choice: a rocking chair on his front porch. He has a hot wife and three hot daughters.^\"Don't touch my daughters.\"",
+    "name": "Cohzem of the Shrouded Bough",
+    "title": "None",
+    "img": "None",
+    "desc": "The best kept secrets never leave the shadows. It is said where Cozhem walks, darkness follows.",
+    "rarity": "6",
+    "avail": "False"
+  },
+  {
+    "name": "Ezekiel, The King",
+    "title": "Bastalion Campaign",
+    "img": "https://i.imgur.com/MpcnAJ1.jpg",
+    "desc": "The crown is a heavy burden to one who obsessively chases freedom. Perhaps that is why he left.",
+    "rarity": "6",
+    "avail": "True"
+  },
+  {
+    "name": "Marin, The Loremaster",
+    "title": "Bastalion Campaign",
+    "img": "https://i.imgur.com/zGvl74k.png",
+    "desc": "A title granted in the absence of other options. A reminder of loss, death, and purpose.",
+    "rarity": "6",
+    "avail": "True"
+  },
+  {
+    "name": "Jules, Lurker's Eye",
+    "title": "Bastalion Campaign",
+    "img": "https://i.imgur.com/6W84S4Y.png",
+    "desc": "An uncaring god may still have use for the ant crawling across its skin.",
+    "rarity": "6",
+    "avail": "True"
+  },
+  {
+    "name": "Mimir, The Ascended",
+    "title": "Mystril Campaign",
+    "img": "None",
+    "desc": "Truth and lies always had been his domain. This just made it official.",
+    "rarity": "6",
+    "avail": "False"
+  },
+  {
+    "name": "Calbert, The Arisen",
+    "title": "Rotgarten Campaign",
+    "img": "None",
+    "desc": "He had never trusted their judgement. Instead of his power, death would be their birthright.",
+    "rarity": "6",
+    "avail": "False"
+  },
+  {
+    "name": "Hayward, The Inheritor",
+    "title": "Rotgarten Campaign",
+    "img": "None",
+    "desc": "His escape was narrow, and he would never take this life for granted again.",
+    "rarity": "6",
+    "avail": "False"
+  },
+  {
+    "name": "Rhesh'a, Godslayer",
+    "title": "FFXIV",
+    "img": "None",
+    "desc": "The pressure flickering behind his eyes has granted him strength beyond measure.",
+    "rarity": "6",
+    "avail": "False"
+  },
+  {
+    "name": "Petalorian, True Dragon",
+    "title": "WoW",
+    "img": "None",
+    "desc": "Their internal war has finally metamorphosized into terrifying unity.",
+    "rarity": "6",
+    "avail": "False"
+  },
+  {
+    "name": "The Kings in Bone",
+    "title": "Mafia 2.0",
+    "img": "https://i.imgur.com/i5zUJdN.png",
+    "desc": "What fools are they to call themselves kings.",
+    "rarity": "6",
+    "avail": "True"
+  },
+
+
+
+
+  {
+    "name": "Ezekiel, The Serpent",
+    "title": "Bastalion Campaign",
+    "img": "https://i.imgur.com/1hgam1Z.jpg",
+    "desc": "He casts off his heritage as easily as a snake sheds its skin.",
     "rarity": "5",
     "avail": "True"
   },
   {
-    "name": "Jade",
-    "title": "The Threshold",
-    "img": "https://i.imgur.com/PHObQwW.png",
-    "desc": "A Ghoran druid who will stop at nothing to hunt the woman who ate them alive.^\"Teeth on your bones, bugs under your skin, left all alone, and shivering within...\"",
+    "name": "Marin",
+    "title": "Bastalion Campaign",
+    "img": "https://i.imgur.com/3EBrSnS.png",
+    "desc": "How can one rebuild from nothing? His entire world has burned.",
+    "rarity": "5",
+    "avail": "True"
+  },
+  {
+    "name": "Jules Ward",
+    "title": "Bastalion Campaign",
+    "img": "https://i.imgur.com/OWB0cQQ.png",
+    "desc": "In the shadow of the infinite, she seeks meaning where she knows it could never exist.",
+    "rarity": "5",
+    "avail": "True"
+  },
+  {
+    "name": "Cohzem",
+    "title": "None",
+    "img": "None",
+    "desc": "Good trade isn't built on burnt bridges.",
+    "rarity": "5",
+    "avail": "False"
+  },
+  {
+    "name": "Locke, The Admiral",
+    "title": "Olde Campaign",
+    "img": "https://i.imgur.com/ahG8EBE.png",
+    "desc": "Did he brave those seas because he loved the waves, or was it the blood he spilt upon them?",
+    "rarity": "5",
+    "avail": "True"
+  },
+  {
+    "name": "Aldebaran",
+    "title": "Rotgarten Campaign",
+    "img": "https://i.imgur.com/cBMkoX4.jpg",
+    "desc": "His oath, his sire, his lover. He realized too late what monster he had given everything to.",
+    "rarity": "5",
+    "avail": "True"
+  },
+  {
+    "name": "Calbert",
+    "title": "Rotgarten Campaign",
+    "img": "https://i.imgur.com/gDYLw8b.jpg",
+    "desc": "A benevolent hand, a gentle touch, a promise that he would care for them always.",
+    "rarity": "5",
+    "avail": "True"
+  },
+  {
+    "name": "Renaissance",
+    "title": "Rotgarten Campaign",
+    "img": "https://i.imgur.com/W6NwoBC.jpg",
+    "desc": "She reaches, strives, and calls for a legacy nearly forgotten. She may have put them to sleep, but she cannot wake them from their dreams.",
+    "rarity": "5",
+    "avail": "True"
+  },
+  {
+    "name": "Talenti",
+    "title": "Rotgarten Campaign",
+    "img": "https://i.imgur.com/djJtJnx.jpg",
+    "desc": "Be quick. Be clever. Keep striving for that ideal, for the perfect creation, and never let the world catch up.",
+    "rarity": "5",
+    "avail": "True"
+  },
+  {
+    "name": "Autumn, The Claw of Irori",
+    "title": "Rotgarten Campaign",
+    "img": "https://i.imgur.com/sZlBVLe.jpg",
+    "desc": "She strives to be dangerous. She is dangerous. It feels like a victory.",
+    "rarity": "5",
+    "avail": "True"
+  },
+  {
+    "name": "Constantine",
+    "title": "Rotgarten Campaign",
+    "img": "https://i.imgur.com/d5OZDXb.jpg",
+    "desc": "She takes up the sword to protect her own. When people start looking to her for guidance, she doesn't know how to deny them.",
+    "rarity": "5",
+    "avail": "True"
+  },
+  {
+    "name": "Capreo",
+    "title": "Rotgarten Campaign",
+    "img": "https://i.imgur.com/VD4KF6D.jpg",
+    "desc": "He comes to the surface to hunt and study it. Years later, he returns to the depths a hero.",
+    "rarity": "5",
+    "avail": "True"
+  },
+  {
+    "name": "Michael Dowd",
+    "title": "Mafia 1.0",
+    "img": "https://i.imgur.com/SZvDBuA.png",
+    "desc": "Truth is a powerful advantage to have, but how far can it carry him?",
+    "rarity": "5",
+    "avail": "True"
+  },
+  {
+    "name": "Caliban",
+    "title": "Mafia 2.0",
+    "img": "https://i.imgur.com/XmTH6Gl.png",
+    "desc": "How easy it is to fool oneself into believing one's own facade.",
+    "rarity": "5",
+    "avail": "True"
+  },
+  {
+    "name": "Nathan",
+    "title": "Mafia 2.0",
+    "img": "https://i.imgur.com/91DlQTw.jpg",
+    "desc": "When even the constants in his life are mutable, what is there left to cling to?",
+    "rarity": "5",
+    "avail": "True"
+  },
+  {
+    "name": "Trip",
+    "title": "Mafia 1.0",
+    "img": "https://i.imgur.com/JinwuUt.png",
+    "desc": "A cat formerly owned by Western mobster Needles, now owned by Michael. Trip is sweet and loves pets, and is also trained in reconnaissance.",
+    "rarity": "5",
+    "avail": "False"
+  },
+  {
+    "name": "Petalorian",
+    "title": "WoW",
+    "img": "https://i.imgur.com/nKq87id.png",
+    "desc": "Be it a curse or a cruel twist of fate, the clamor inside their united mind is hard to think through.",
+    "rarity": "5",
+    "avail": "True"
+  },
+  {
+    "name": "Cyril",
+    "title": "Bird Cult",
+    "img": "https://i.imgur.com/ZXUt4yi.png",
+    "desc": "He doesn't feel like a monster. He knows they won't think the same.",
+    "rarity": "5",
+    "avail": "True"
+  },
+
+
+
+
+  {
+    "name": "Molzi",
+    "title": "Threshold Campaign",
+    "img": "https://i.imgur.com/lZKPkEb.png",
+    "desc": "If the door cannot be forced open, it must instead be tricked or eased. She knows this better than most.",
     "rarity": "4",
     "avail": "True"
   },
   {
-    "name": "Varsival",
-    "title": "The Threshold",
-    "img": "https://i.imgur.com/CkxF0bh.png",
-    "desc": "An elderly Elven druid who lives alone in a wizard tower near the Misty Lake. He is a reclusive hermit, but is willing to help when someone reaches out.^\"Well, wasn't this one rather exhausting...\"",
+    "name": "Rolmir",
+    "title": "Threshold Campaign",
+    "img": "https://i.imgur.com/uSM1q2x.png",
+    "desc": "Is it really so wrong to be himself? And which self should he really be?",
+    "rarity": "4",
+    "avail": "True"
+  },
+  {
+    "name": "Ezekiel Lockwood",
+    "title": "Bastalion Campaign",
+    "img": "https://i.imgur.com/mZ3pV8U.jpg",
+    "desc": "He cradles his freedom like an injured bird, snapping at the cats who try to claim it.",
+    "rarity": "4",
+    "avail": "True"
+  },
+  {
+    "name": "Juliette, The Devout",
+    "title": "Bastalion Campaign",
+    "img": "https://i.imgur.com/pLAZR8S.png",
+    "desc": "In knowledge, we find salvation. In gates, we find power. In eyes, we find the truth.",
+    "rarity": "4",
+    "avail": "True"
+  },
+  {
+    "name": "Haruk, The Researcher",
+    "title": "Olde Campaign",
+    "img": "https://i.imgur.com/4uyPhC6.png",
+    "desc": "How do you save an enemy who everyone has forsaken? He doesn't know, but one day he'll find out.",
+    "rarity": "4",
+    "avail": "True"
+  },
+  {
+    "name": "Ragni",
+    "title": "Magical Girls",
+    "img": "https://i.imgur.com/duoQ0Us.png",
+    "desc": "Collateral damage? She's been collateral damage her entire life.",
+    "rarity": "4",
+    "avail": "True"
+  },
+  {
+    "name": "Sable",
+    "title": "Magical Girls",
+    "img": "None",
+    "desc": "She never really believed she could uphold the dream they had once strived for. After all, they were many, and without them she was alone.",
+    "rarity": "4",
+    "avail": "True"
+  },
+  {
+    "name": "Bowen",
+    "title": "Rotgarten Campaign",
+    "img": "None",
+    "desc": "The only things he missed about being alive were the feeling of the sun on his fur, and the ease with which others would talk to him.",
+    "rarity": "4",
+    "avail": "True"
+  },
+  {
+    "name": "William Braxton",
+    "title": "Mafia 2.0",
+    "img": "https://i.imgur.com/Y9ZG5cX.jpg",
+    "desc": "There's always something to prove, and someone it must be proven to.",
+    "rarity": "4",
+    "avail": "True"
+  },
+  {
+    "name": "Rhesh'a",
+    "title": "FFXIV",
+    "img": "https://i.imgur.com/6hKYnZT.png",
+    "desc": "Some days he would sit on the deck, listen to the lapping of the waves, and wish for nothing more than peace.",
+    "rarity": "4",
+    "avail": "True"
+  },
+  {
+    "name": "Petastrasz",
+    "title": "WoW",
+    "img": "None",
+    "desc": "If might makes right, then surely he can do no wrong.",
+    "rarity": "4",
+    "avail": "True"
+  },
+  {
+    "name": "Valcaris",
+    "title": "WoW",
+    "img": "https://i.imgur.com/VWzhGcf.jpg",
+    "desc": "They say such gods are beyond the petty matters of humanity, but they're the only ones who have cared for him.",
+    "rarity": "4",
+    "avail": "True"
+  },
+  {
+    "name": "Marian",
+    "title": "Bird Cult",
+    "img": "https://i.imgur.com/sk1ZTL8.png",
+    "desc": "Is it a blessing or a curse? She's not sure it matters which. She has to live with the consequences either way.",
+    "rarity": "4",
+    "avail": "True"
+  },
+  {
+    "name": "Rip",
+    "title": "FR",
+    "img": "https://i.imgur.com/o9xI4vD.png",
+    "desc": "Death seeps through the air of Spinehome, so thick you could choke on it. By some twist of fate, they find themselves its keeper.",
+    "rarity": "4",
+    "avail": "True"
+  },
+  {
+    "name": "Mikhail",
+    "title": "FR",
+    "img": "https://i.imgur.com/8NkQ7VN.png",
+    "desc": "No one better to inherit than the dragon who saw it all, beginning to bloody end. He wishes they hadn't chosen him, but he can't deny the reasoning.",
+    "rarity": "4",
+    "avail": "True"
+  },
+
+
+
+
+  {
+    "name": "Julie, The Vengeful",
+    "title": "Bastalion Campaign",
+    "img": "https://i.imgur.com/E8UdRxx.jpg",
+    "desc": "Ever so slowly, the prey would gain the strength to hunt back.",
     "rarity": "3",
     "avail": "True"
   },
   {
-    "name": "Twill",
-    "title": "The Threshold",
-    "img": "https://i.imgur.com/YMTN5rY.png",
-    "desc": "This chaotic goblin gremlin is a skilled trapper, perfectly complementing Breena's hunting skills. The two make a strong and strange couple.",
+    "name": "Haruk",
+    "title": "Olde Campaign",
+    "img": "None",
+    "desc": "Knowledge at all costs, except for the others. Anything he does, he does to himself.",
+    "rarity": "3",
+    "avail": "True"
+  },
+  {
+    "name": "Fenster",
+    "title": "Olde Campaign",
+    "img": "None",
+    "desc": "It takes so long for his eyes to adjust to the light, he nearly forgets how to see.",
+    "rarity": "3",
+    "avail": "True"
+  },
+  {
+    "name": "Locke",
+    "title": "Olde Campaign",
+    "img": "None",
+    "desc": "The quiet, the calm, all that remains of a terrible storm.",
+    "rarity": "3",
+    "avail": "True"
+  },
+  {
+    "name": "Aquila, The Wronged",
+    "title": "Side Campaign",
+    "img": "None",
+    "desc": "If her fire means she will never be hurt again, be assured she will use it.",
+    "rarity": "3",
+    "avail": "True"
+  },
+  {
+    "name": "Mimir",
+    "title": "Mystril Campaign",
+    "img": "https://i.imgur.com/NyO6rI5.png",
+    "desc": "It doesn't matter how severe his injuries. He will be there for his grandson.",
+    "rarity": "3",
+    "avail": "True"
+  },
+  {
+    "name": "Caspar",
+    "title": "Mystril Campaign",
+    "img": "None",
+    "desc": "He had always been closest to his grandfather. Everyone else would call him weak.",
+    "rarity": "3",
+    "avail": "True"
+  },
+  {
+    "name": "Elmak",
+    "title": "Rotgarten Campaign",
+    "img": "https://i.imgur.com/pvcfaVk.png",
+    "desc": "He had known to expect something below. He hadn't thought it would be so terribly ravenous.",
+    "rarity": "3",
+    "avail": "True"
+  },
+  {
+    "name": "Jean",
+    "title": "Mafia 2.0",
+    "img": "https://i.imgur.com/fWlRQoV.jpg",
+    "desc": "He runs as fast as his legs can carry him, but never quite manages to leave behind his regrets.",
+    "rarity": "3",
+    "avail": "True"
+  },
+  {
+    "name": "Rhesh'a, The Navigator",
+    "title": "FFXIV",
+    "img": "None",
+    "desc": "The view from the crow's nest was everything to him.",
+    "rarity": "3",
+    "avail": "True"
+  },
+  {
+    "name": "Ashalorian and Pete",
+    "title": "WoW",
+    "img": "None",
+    "desc": "They aren't perfect, but in tandem they become a force to be feared.",
+    "rarity": "3",
+    "avail": "True"
+  },
+  {
+    "name": "Elizot",
+    "title": "WoW",
+    "img": "https://i.imgur.com/3tY62cm.png",
+    "desc": "The transformation, once it started, could not be stopped. She writhed and shrieked and lost parts of herself to the beast, and then to the shade that followed.",
+    "rarity": "3",
+    "avail": "True"
+  },
+  {
+    "name": "Theo",
+    "title": "Bird Cult",
+    "img": "https://i.imgur.com/iLOeOxh.png",
+    "desc": "Surviving kept him occupied, day and night, for so long he nearly forgot there could be anything more.",
+    "rarity": "3",
+    "avail": "True"
+  },
+  {
+    "name": "Mira",
+    "title": "Bird Cult",
+    "img": "https://i.imgur.com/C1QXrDK.png",
+    "desc": "The day she loses everything is rooted firmly in her mind. It cannot be forgotten. It cannot be overwritten, no matter how hard she tries.",
+    "rarity": "3",
+    "avail": "True"
+  },
+
+
+
+
+  {
+    "name": "Averne",
+    "title": "Side Campaign",
+    "img": "None",
+    "desc": "As he grows, he learns to look for what people try to hide.",
     "rarity": "2",
     "avail": "True"
   },
   {
-    "name": "Alsom",
-    "title": "The Threshold",
+    "name": "Rolmir, The Studious",
+    "title": "Threshold Campaign",
+    "img": "https://i.imgur.com/UMptwAb.jpg",
+    "desc": "It isn't what he wants, sure. But they need him, and that's more important.",
+    "rarity": "2",
+    "avail": "True"
+  },
+  {
+    "name": "Candle",
+    "title": "Bastalion Campaign",
     "img": "None",
-    "desc": "To Be Discovered...",
+    "desc": "The carved gourd they wear for a skull is meant to be reassuring. It isn't.",
+    "rarity": "2",
+    "avail": "True"
+  },
+  {
+    "name": "Caspar, The Cursed",
+    "title": "Mystril Campaign",
+    "img": "https://i.imgur.com/xfexAkK.png",
+    "desc": "To fall in a mess of feathers and cries... maybe they were right about him after all.",
+    "rarity": "2",
+    "avail": "True"
+  },
+  {
+    "name": "Holly",
+    "title": "Side Campaign",
+    "img": "https://i.imgur.com/WGyIgWf.png",
+    "desc": "Mostly she burns because it's what she's always done. She doesn't know anything else. It would, however, be a lie to say she doesn't enjoy it.",
+    "rarity": "2",
+    "avail": "True"
+  },
+  {
+    "name": "Darcy",
+    "title": "Rotgarten Campaign",
+    "img": "None",
+    "desc": "He came first because he was curious. He stayed because he admired the way they persisted, even knowing the world was right in calling them monsters.",
+    "rarity": "2",
+    "avail": "True"
+  },
+  {
+    "name": "Eduard Pickman",
+    "title": "Rotgarten Campaign",
+    "img": "None",
+    "desc": "He could barely remember how he came to be like this, but there was always the nagging feeling it had been intentional.",
+    "rarity": "2",
+    "avail": "True"
+  },
+  {
+    "name": "Hayden",
+    "title": "Rotgarten Campaign",
+    "img": "None",
+    "desc": "He wonders how deep the rabbit hole goes, and fears learning the answer.",
+    "rarity": "2",
+    "avail": "True"
+  },
+  {
+    "name": "Lemon Twist, The Slayer",
+    "title": "Rotgarten Campaign",
+    "img": "None",
+    "desc": "If allying himself to the enemy is the easiest way to kill them, then he'll do exactly that.",
+    "rarity": "2",
+    "avail": "True"
+  },
+  {
+    "name": "Valeria Gordan",
+    "title": "Magical Girls",
+    "img": "https://i.imgur.com/o0ixegK.png",
+    "desc": "She doesn't care for their approval. She doesn't. She doesn't. She doesn't.",
+    "rarity": "2",
+    "avail": "True"
+  },
+  {
+    "name": "Martin",
+    "title": "Magical Girls",
+    "img": "None",
+    "desc": "Being accused of murder meant he couldn't go to their funerals, talk to their loved ones, or even rest and cry. He had to find his closure in stranger places yet.",
+    "rarity": "2",
+    "avail": "True"
+  },
+  {
+    "name": "Ashalorian",
+    "title": "WoW",
+    "img": "None",
+    "desc": "He would always claim his vices were his virtues, and no one cared enough to correct him.",
+    "rarity": "2",
+    "avail": "True"
+  },
+  {
+    "name": "Sunnybun",
+    "title": "WoW",
+    "img": "None",
+    "desc": "Money wasn't everything. If she could be happy here, why try for something more?",
+    "rarity": "2",
+    "avail": "True"
+  },
+
+
+
+
+  {
+    "name": "Juliette, The Forgotten",
+    "title": "Bastalion Campaign",
+    "img": "https://i.imgur.com/EvIjGkA.png",
+    "desc": "Would a caring gaze have saved her then? It's useless to ruminate on could-have-beens.",
     "rarity": "1",
     "avail": "True"
   },
   {
-    "name": "Example 6-Star",
-    "title": "Campaign Title",
+    "name": "Marin, The Duskwalker",
+    "title": "Bastalion Campaign",
+    "img": "https://i.imgur.com/ySexjYz.png",
+    "desc": "Once upon a time, he appeared here, nothing more than what he was.",
+    "rarity": "1",
+    "avail": "True"
+  },
+  {
+    "name": "Aquila",
+    "title": "Side Campaign",
     "img": "None",
-    "desc": "None",
-    "rarity": "6",
-    "avail": "False"
+    "desc": "People always underestimate her. She's stronger than she looks. One day they'll learn to fear her.",
+    "rarity": "1",
+    "avail": "True"
+  },
+  {
+    "name": "Amique",
+    "title": "Side Campaign",
+    "img": "None",
+    "desc": "Fearing the dark, he wards it away with hands full of wax and wicks.",
+    "rarity": "1",
+    "avail": "True"
+  },
+  {
+    "name": "Alde",
+    "title": "Side Campaign",
+    "img": "None",
+    "desc": "The dead are as silent as the night sky. Sometimes they wish those bodies would speak.",
+    "rarity": "1",
+    "avail": "True"
+  },
+  {
+    "name": "Lemon Twist",
+    "title": "Side Campaign",
+    "img": "None",
+    "desc": "He venture out under the safety of a mask, giving his life for a task innumerable wanderers had failed to complete.",
+    "rarity": "1",
+    "avail": "True"
+  },
+  {
+    "name": "Miki",
+    "title": "Olde Campaign",
+    "img": "https://i.imgur.com/P6qstfn.png",
+    "desc": "She sees every sin. Whether she lacks the capacity to judge him or loves him despite everything, he'll never know.",
+    "rarity": "1",
+    "avail": "True"
+  },
+  {
+    "name": "Ingra",
+    "title": "Rotgarten Campaign",
+    "img": "https://i.imgur.com/dOSoTta.png",
+    "desc": "Her crimes exist, sure, but they're victimless. Why should she be punished for an act that hurts no one?",
+    "rarity": "1",
+    "avail": "True"
+  },
+  {
+    "name": "Eliza Sunbringer",
+    "title": "Rotgarten Campaign",
+    "img": "None",
+    "desc": "The divine magic she carries is seen as a symbol that her people's sins might truly be redeemed.",
+    "rarity": "1",
+    "avail": "True"
+  },
+  {
+    "name": "Arcaseere",
+    "title": "Rotgarten Campaign",
+    "img": "https://i.imgur.com/a9ivzPg.png",
+    "desc": "They had once longed for a fleshy form, but after time and innovation, their current is more robust.",
+    "rarity": "1",
+    "avail": "True"
+  },
+  {
+    "name": "Dandelion",
+    "title": "Rotgarten Campaign",
+    "img": "None",
+    "desc": "Her sentience had been a hot topic for years before she proved it, craning open her rotten mouth to ask them if there could be anything left for her.",
+    "rarity": "1",
+    "avail": "True"
+  },
+  {
+    "name": "Oriel",
+    "title": "None",
+    "img": "None",
+    "desc": "Remember, dearest, that your role does not define you. You choose what pain and love you bring into the world, and I believe you can be gentle.",
+    "rarity": "1",
+    "avail": "True"
+  },
+  {
+    "name": "Sezue Ikido",
+    "title": "None",
+    "img": "https://i.imgur.com/SW4W7Xs.jpg",
+    "desc": "The tang of metal in their mouth is nothing noteworthy. They wonder if others would feel the same.",
+    "rarity": "1",
+    "avail": "True"
+  },
+  {
+    "name": "Breadcrumb",
+    "title": "Magical Girls",
+    "img": "https://i.imgur.com/vtY5jQ7.png",
+    "desc": "Was he truly just a greedy pigeon? What use did a pigeon have for the damned?",
+    "rarity": "1",
+    "avail": "True"
+  },
+  {
+    "name": "Pete",
+    "title": "WoW",
+    "img": "https://i.imgur.com/hEeRUR3.png",
+    "desc": "It's difficult to remember what he was when he is so much less now.",
+    "rarity": "1",
+    "avail": "True"
   }
 ]
